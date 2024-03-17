@@ -3,9 +3,6 @@ import Card from './Card';
 import './CardList.css';
 
 const CardList = ({ robots }) => {
-  if(false){
-    throw new Error('NOOOOO!')
-  }
   return (
     <div className='cardLists'>
       {
