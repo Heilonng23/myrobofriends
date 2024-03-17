@@ -1,0 +1,25 @@
+.cardLists {
+  padding: 0 20px; /* Adjusted padding for all screen sizes */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjusted for responsive layout */
+  grid-gap: 20px; /* Adjusted grid gap for better spacing */
+}
+
+@media screen and (min-width: 1200px) {
+  .cardLists {
+    padding: 0 80px; /* Adjusted padding for larger screens */
+    grid-template-columns: repeat(4, 1fr); /* Ensure 4 cards per row on larger screens */
+  }
+}
+@font-face {
+  font-family: 'SEGA LOGO FONT';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+}
+
+h1 {
+  font-family: 'SEGA LOGO FONT';
+  font-weight: 200;
+  color: #0ccac4;
+}
