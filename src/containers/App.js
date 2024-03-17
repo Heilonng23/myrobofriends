@@ -12,7 +12,7 @@ class App extends Component {
             robots: [],
             searchField: ''
         }
-    }
+    }//new changes
 
     componentDidMount() {
         fetch('https://jsonplaceholder.typicode.com/users')
