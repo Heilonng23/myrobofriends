@@ -8,7 +8,7 @@
 @media screen and (min-width: 1200px) {
   .cardLists {
     padding: 10 80px; /* Adjusted padding for larger screens */
-    grid-template-columns: repeat(4, 1fr); /* Ensure 4 cards per row on larger screens */
+    grid-template-columns: repeat(5, 1fr); /* Ensure 4 cards per row on larger screens */
   }
 }
 @font-face {
